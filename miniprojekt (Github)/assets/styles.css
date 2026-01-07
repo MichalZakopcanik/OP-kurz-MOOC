@@ -1,0 +1,40 @@
+.complaints-table {
+  margin: 30px auto;
+  border-collapse: collapse;
+  width: 60%;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+.complaints-table caption {
+  caption-side: top;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.complaints-table thead,
+.complaints-table tfoot {
+  background-color: rgb(228 240 245);
+}
+
+.complaints-table th,
+.complaints-table td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
+
+.complaints-table td:last-of-type {
+  text-align: center;
+}
+
+.complaints-table tbody > tr:nth-of-type(even) {
+  background-color: rgb(237 238 242);
+}
+
+.complaints-table tfoot th {
+  text-align: right;
+}
+
+.complaints-table tfoot td {
+  font-weight: bold;
+}
